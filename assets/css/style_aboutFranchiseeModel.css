@@ -1,0 +1,119 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.navbar{
+    background-color: #e62540;
+}
+
+.nav-link{
+    color: white !important ;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: Roboto, sans-serif;
+    margin-left: 20px;
+}
+
+.container .navbar-brand img{
+    height: 24px;
+    width: 135px;
+}
+
+/* .nav-item:hover .dropdown-menu làm cho menu con hiện ra luôn khi chạm vào mà không cần click */
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+
+.nav-item a:hover {
+    color:blue !important;
+}
+
+.dropdown-menu{
+    margin-left: 28px;
+    background-color: #E20726;
+    border-radius: 0;
+    padding: 0 0 0 0;
+    border: 0 solid;
+}
+
+.dropdown-item{
+    color: white !important;
+    font-size: 14px;
+}
+
+.dropdown-menu li a:hover{
+    color: red !important;
+    background-color: #e5eaf4;
+}
+
+.nav-link img{
+    width: 27px;
+    height: 27px;
+}
+
+.container h2{
+    color: #E20726;
+    line-height: 43px;
+    font-weight: 700;
+    border-bottom: 1px solid #979797;
+    padding: 0 0 5px 0;
+}
+
+.container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.container h6{
+    padding: 10px 0 20px 0;
+}
+
+.container .img6{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+
+.footer{
+    background-color: #082a4a;
+    color: white;
+    padding: 70px 0 60px 60px;
+}
+
+.footer img{
+    height: 28px;
+    width: 117px;
+}
+
+.footer p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 12px;
+    padding: 15px 0 15px 0;
+}
+
+.footer h5{
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.footer h5 a{
+    font-size: 12px;
+    line-height: 23px;
+    color: white ;
+}
+
+.footer h6{
+    font-size: 12px;
+    color: #7F8488;
+    padding: 30px 0 0 0;
+}
+
+.footer a img{
+    height: 60px;
+    width: 35px;
+    padding: 10px 0 15px 0;
+}
